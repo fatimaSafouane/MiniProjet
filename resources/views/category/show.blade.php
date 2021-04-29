@@ -26,11 +26,6 @@
                 <div class="card-body">
 
 
-
-
-
-
-            
             <div  v-if="open.produit">
           
             <form v-on:submit.prevent="validateForm('formEx')" data-vu-scope="formEx">
@@ -91,12 +86,8 @@
                         </div>
                       </div>
                      
-
                     </div>
-               
-
-
-               
+                
                     <div class="row" v-if="open.form" >
 
                     
@@ -128,7 +119,7 @@
                 <button class="btn btn-danger btn-default " @click="open.table = true">generer</button> 
                 <br><br>
 
-<div class="form-group" v-if="open.table" >
+                       <div class="form-group" v-if="open.table" >
                         <label> Preview:</label>
                         </div>
 
@@ -161,10 +152,7 @@
       <td> <input type="number" placeholder="0"  class="  border: 1px solid #ccc;"
        min="1" max="100"> </td>
       <td>   <input   class="form-control" style="  border: 2px solid #000;"></td>
-      
-      
-      
-     
+  
     </tr>
    
   </tbody>
@@ -172,17 +160,7 @@
    
                     </div>
 
-
-
-
-
-
-
-
-
             </div>
-
-         
 
             
                <button v-if="edit.produit " class="btn btn-danger btn-block " @click="updateProduit">modifier</button>     
@@ -248,11 +226,6 @@ sweetalert2.all.min.js"></script> -->
     </script>
 
 <script  src="{{ asset('js/script.js') }}">
-
-
-
-
-
 
 
 </script>
