@@ -132,23 +132,7 @@ var app = new Vue({
       this.newtod=''
       this.tods.completed= true
   },
-       addNew :function() {
-      
-        this.formuls.push({
-            textarea: '',
-            p: '',
-           
-        });  
-         
-    },
-    remNew:function(index) { 
-      this.formuls.splice(index, 1);
-      
-  },
-  remMsg:function(index) { 
-    this.formuls.splice(index, 1);
     
-},
   vareity:function() {
     // Get the checkbox
     var checkBox = document.getElementById("1");
